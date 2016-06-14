@@ -6,8 +6,8 @@ steps:
   unit-test:
     image: python:2-alpine
     commands: 
-      - echo dolphin
-      - exit 0
+      - echo dolphin dead
+      - exit 1
     environment:
       - JIM=BOB
       - PORT=9000
