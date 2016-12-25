@@ -5,3 +5,4 @@ echo "Starting test"
 docker run -it --link integration_web_1:web phusion/baseimage bash -c "curl --silent \"http://web:8000\" > /dev/null"
 
 exit=$?
+
